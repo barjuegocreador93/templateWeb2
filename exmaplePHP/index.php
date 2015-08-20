@@ -7,15 +7,15 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>wow</title>
+        <title>TitlePageweb</title>
     </head>    
     <body>
         <header>
-            <h1>Title Page</h1>
-            <div class="scla1 h_1"></div>
-            <div class="scla2 h_1"></div>
-            <div class="scla3 h_1"></div>
-            <div class="scla4 h_1"></div>
+            <h1>Title Page!</h1>
+            <div class="scla1 h_2"></div>
+            <div class="scla2 h_2"></div>
+            <div class="scla3 h_2"></div>
+            <div class="scla4 h_2"></div>
         </header>
        
         <nav>
@@ -35,7 +35,11 @@ and open the template in the editor.
                 <form><input type="search"></form>
                 <h2>Personas: </h2>
                 <div id="frstpersons">
-                    
+                    <?php
+      
+                    echo "<p>hola-</p>";        
+        
+                    ?>
                 </div>
             </section>
             <section class="scla3">
@@ -46,11 +50,10 @@ and open the template in the editor.
             </section>            
             
         </div>
-        <?php
         
-        echo "<p>hola</p>";        
         
-        ?>
+        
+        
     </body>
     <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
     <script src="js/FST-APP.js" type="text/javascript"></script>
